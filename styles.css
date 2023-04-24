@@ -36,16 +36,29 @@ body {
   height: 99.5vh;
 }
 
-#music{
-  position :absolute;
-  right: 0;
-  margin-top:3rem;
+video {
+  position: relative;
+  min-width: 100%;
+  min-height: 99.5vh;
+  width: auto;
+  height: auto;
+  z-index: 1;
+}
+
+#music {
+  position: absolute;
+  width: 15%;
+  top: 0;
+  left: 0;
+  margin-top: 3rem;
   z-index: 7;
 }
+
 .fog {
   width: 100%;
   top: 0;
   left: 0;
+  height: 99.5vh;
   position: absolute;
   animation: fogAnimation 7s alternate infinite;
   z-index: 1;
@@ -122,6 +135,29 @@ scroll-container::-webkit-scrollbar-thumb {
 
 }
 
+@media (max-width: 1400px) {
+  video {
+    transform: translateX(-2%) translateY(0%);
+  }
+}
+@media (max-width: 1300px) {
+  video {
+    transform: translateX(-10%) translateY(0%);
+  }
+}
+@media (max-width: 1100px) {
+  video {
+    transform: translateX(-20%) translateY(0%);
+  }
+}
+@media (max-width: 900px) {
+  video {
+    transform: translateX(-40%) translateY(0%);
+  }
+  #music {
+    width: 20%; 
+  }
+}
 
 
 @keyframes fogAnimation {
