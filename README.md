@@ -1,6 +1,6 @@
 # Site-Animado
 
-## Link: https://breno-leonardo.github.io/Site-Animado/
+## Link: https://breno-leonardo.github.io/Animated-Website-Kindred-Lore/
 
 Projeto para treinar algumas animações CSS, inspirado no personagem Kindred do jogo League Of Legends, seria como uma página de lore (história) do personagem.
 
